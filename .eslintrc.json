@@ -1,0 +1,41 @@
+{
+	"env": {
+		"jquery": true,
+		"node": true,
+		"jest": true,
+    "browser": true
+	},
+	"plugins": [
+		"jquery",
+		"jest",
+    "promise"
+	],
+	"extends": [
+		"standard",
+		"eslint:recommended"
+	],
+	"globals": {
+		"Atomics": "readonly",
+		"SharedArrayBuffer": "readonly"
+	},
+	"parserOptions": {
+		"ecmaVersion": 11
+	},
+	"rules": {
+		"semi": "error",
+		"indent": [
+			"error",
+			2
+		],
+		"prefer-const": [
+			"error",
+			{
+				"ignoreReadBeforeAssign": true
+			}
+		],
+		"space-before-function-paren": "off",
+		"no-var": "error",
+		"no-console": "off",
+		"no-unused-expressions": 0
+	}
+}

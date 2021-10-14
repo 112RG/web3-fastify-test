@@ -1,0 +1,34 @@
+{
+  "name": "web3-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "dotenv": "^10.0.0",
+    "eth-sig-util": "^3.0.1",
+    "ethereumjs-util": "^7.1.2",
+    "fastify": "^3.22.0",
+    "fastify-mongoose": "^0.3.0",
+    "fastify-routes": "^3.1.0",
+    "fastify-static": "^4.4.2",
+    "mongoose": "^6.0.10",
+    "pino-pretty": "^7.0.1",
+    "point-of-view": "^4.15.2",
+    "pug": "^3.0.2"
+  },
+  "devDependencies": {
+    "eslint": "^7.27.0",
+    "eslint-config-standard": "^14.1.1",
+    "eslint-plugin-jest": "^23.20.0",
+    "eslint-plugin-jquery": "^1.5.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.1.0"
+  }
+}
